@@ -2,11 +2,14 @@
 
 from distutils.core import setup
 
-setup(name='Distutils',
+setup(name='kata',
       version='1.0',
-      description='Python Distribution Utilities',
-      author='',
-      author_email='',
+      description='Exercises',
+      author='Brandon T. Fields',
+      author_email='brandon@cdated.com',
       url='http://www.cdated.com',
       packages=['kata'],
+      entry_points = {
+          'console_scripts': ['kata-hello=kata.hello:main'],
+      },
      )

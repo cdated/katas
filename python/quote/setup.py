@@ -10,6 +10,6 @@ setup(name='kata',
       url='http://www.cdated.com',
       packages=['kata'],
       entry_points = {
-          'console_scripts': ['kata-hello=kata.main:main'],
+          'console_scripts': ['kata-quote=kata.main:main'],
       },
      )

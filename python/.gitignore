@@ -4,6 +4,7 @@
 *.pyc
 __pycache__
 *.egg-info
+*.eggs
 
 .coverage
 coverage_html_report

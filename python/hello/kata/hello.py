@@ -1,5 +1,6 @@
 from six.moves import input
 
+
 def greeting():
     name = input("What is you name? ")
     if name == "Brandon":
@@ -9,8 +10,10 @@ def greeting():
     else:
         return "Hello, {}, I hope you are well.".format(name)
 
+
 def main():
     print(greeting())
+
 
 if __name__ == '__main__':
     main()

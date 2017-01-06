@@ -1,10 +1,10 @@
-import main
+from kata import main
 from mock import patch, call
 from unittest import TestCase
 
 class Test(TestCase):
     def test_read_input(self):
-        with patch('main.input', return_value='valid input'):
+        with patch('kata.main.input', return_value='valid input'):
             self.assertEqual(main.read_quotes(), 'valid input')
 
     def test_parse_quotes(self):
@@ -33,9 +33,9 @@ class Test(TestCase):
 
         self.assertEqual(expected, result)
 
-    @patch('main.print')
-    @patch('main.parse_quotes')
-    @patch('main.read_quotes')
+    @patch('kata.main.print')
+    @patch('kata.main.parse_quotes')
+    @patch('kata.main.read_quotes')
     def test_quote_output(self, read_quotes, parse_quotes, mock_print):
         read_quotes.return_value = ''
         parse_quotes.return_value = dict(me="yolo", you="polo")
@@ -47,9 +47,9 @@ class Test(TestCase):
         self.assertTrue(read_quotes.call_count == 1)
         self.assertTrue(parse_quotes.call_count == 1)
 
-    @patch('main.print')
-    @patch('main.parse_quotes')
-    @patch('main.read_quotes')
+    @patch('kata.main.print')
+    @patch('kata.main.parse_quotes')
+    @patch('kata.main.read_quotes')
     def test_quote_empty(self, read_quotes, parse_quotes, mock_print):
         read_quotes.return_value = ''
         parse_quotes.return_value = dict()

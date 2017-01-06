@@ -4,9 +4,11 @@ import re
 
 
 def read_quotes():
-    data = input('Enter quotes and authors in the format ("quote0" author0) ("quote1" author1):\n')
+    data = input('Enter quotes and authors in the format ' +
+                 '("quote0" author0) ("quote1" author1):\n')
 
     return data
+
 
 def parse_quotes(data):
     quotes_data = {}
@@ -18,11 +20,13 @@ def parse_quotes(data):
 
     return quotes_data
 
+
 def main():
     quote_data = parse_quotes(read_quotes())
 
     for author in sorted(quote_data):
         print('{} says, "{}"'.format(author, quote_data[author]))
+
 
 if __name__ == '__main__':
     main()

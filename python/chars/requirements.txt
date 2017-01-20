@@ -1,1 +1,4 @@
 six
+pbr
+setuptools
+coverage

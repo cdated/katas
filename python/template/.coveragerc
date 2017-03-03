@@ -1,6 +1,8 @@
 # .coveragerc to control coverage.py
 [run]
-branch = True
+branch = true
+source = kata
+omit = */tests/*
 
 [report]
 # Regexes for lines to exclude from consideration
@@ -23,7 +25,9 @@ exclude_lines =
     # Skip main methods
     # main()
 
-ignore_errors = True
+ignore_errors = true
+precision = 2
+show_missing = true
 
 [html]
 directory = coverage_html_report

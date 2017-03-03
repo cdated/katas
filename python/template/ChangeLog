@@ -1,6 +1,8 @@
 CHANGES
 =======
 
+* Replace markdown with restructured text everywhere
+* Complete madlibs kata
 * Add pbr, setuptools, and coverage to requirements
 * Create template project and add madlibs kata from template
 * Add pbr to hello kata

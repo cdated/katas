@@ -1,4 +1,4 @@
 six
 pbr
 setuptools
-coverage
+future

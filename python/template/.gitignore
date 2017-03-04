@@ -1,0 +1,13 @@
+.cache
+.tox
+.vagrant
+venv
+
+*.pyc
+__pycache__
+*.egg-info
+*.eggs
+
+.coverage
+coverage_html_report
+htmlcov

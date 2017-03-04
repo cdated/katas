@@ -1,11 +1,1 @@
-.cache
-.tox
-
-*.pyc
-__pycache__
-*.egg-info
-*.eggs
-
-.coverage
-coverage_html_report
-htmlcov
+template/.gitignore

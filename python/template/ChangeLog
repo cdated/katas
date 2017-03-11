@@ -1,6 +1,9 @@
 CHANGES
 =======
 
+* Use the template gitignore for all python katas
+* Add script to change 'kata' string everywhere
+* Update tox/coverage in template
 * Replace markdown with restructured text everywhere
 * Complete madlibs kata
 * Add pbr, setuptools, and coverage to requirements

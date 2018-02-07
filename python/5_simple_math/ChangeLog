@@ -1,0 +1,32 @@
+CHANGES
+=======
+
+* Add a print test case to template
+* Use the template gitignore for all python katas
+* Add script to change 'kata' string everywhere
+* Update tox/coverage in template
+* Replace markdown with restructured text everywhere
+* Complete madlibs kata
+* Add pbr, setuptools, and coverage to requirements
+* Create template project and add madlibs kata from template
+* Add pbr to hello kata
+* Add pbr to quotes kata and restructure tests
+* Add pbr and flake8 to chars kata
+* Remove unnecessary exclude line from tox flake8
+* Remove parameters from setup.py
+* Add flake8 support to tox
+* Add skeleton for madlibs kata
+* Update kata commandline scripts for chars and quote katas
+* Update hello and chars katas to add coverage
+* Update chars kata readme
+* Update hello kata readme formatting
+* Update README.md
+* Updare quote kata readme
+* Inherit deps in tox
+* Add quotes kata with coverage
+* Rename READMEs to have markdown extension
+* Add kata for counting length of input and add READMEs
+* Add *.egg-info to gitignore
+* Fix setup.py so it is installed as a command-line app
+* Start with tip calculator and unit tested hello world
+* Initial commit

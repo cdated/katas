@@ -5,7 +5,7 @@ from unittest import TestCase
 
 class Test(TestCase):
 
-    def test_read_input(self):
+    def test_get_input(self):
         with mock.patch('kata.main.input', return_value='valid input'):
             self.assertEqual(main.get_input(), 'valid input')
 

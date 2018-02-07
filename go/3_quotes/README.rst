@@ -1,6 +1,6 @@
-=====
-Quote
-=====
+======
+quotes
+======
 
 Quotation marks are often used to denote the start and end of a string.
 But sometimes we need to print out the quotation marks themselves by
